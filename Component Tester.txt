@@ -1,0 +1,13 @@
+Code is working.
+
+added code to display the word "ohm" on the OLED instead of using the Greek symbol for Omega.
+also using lower-case "u" in place of Greek symbol Mu for micro, as neither of the symbols are included in the Adafruit GFX Library default font for SSD1306 OLED Displays.
+
+added code to display schematic symbols for Capacitor ("-||-"), Resistor ("-[//]-"),
+and Diode (" C-|<-A" or "A->|-C") dependent on which way the diode is facing. 
+Inductors use the same symbol for Resistor.
+
+to do:
+
+Clean up code to remove everything unnecessary for use with a ProMini (ATmega328) and OLED display.
+
